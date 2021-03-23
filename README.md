@@ -10,7 +10,7 @@ That's how it looks:
 
 # Engine
 
-It place walls and sprites on screen. Also it place different texture on walls depending on player direction. You can change ceiling and floor colours in conf. file as a textures to walls and sprite.
+It place walls and sprites on screen. Also it place different texture on walls depending on it direction. You can change ceiling and floor colours in conf. file as a textures to walls and sprite.
 
 # Parser
  
