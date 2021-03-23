@@ -38,21 +38,16 @@ S ./textures/barrel.xpm
  1111111111111111111111111111
 ```
 
-R  - for resolution
-
-F and C - floor and ceiling colours
-
-NO (north) SO (south) WE (west) EA (east) S (sprite) - path to the textures
+- R  - for resolution
+- F and C - floor and ceiling colours
+- NO (north) SO (south) WE (west) EA (east) S (sprite) - path to the textures
 
 Then there is a map in which
 
-0 - empty space
-
-1 - is a wall
-
-2 - is a sprite
-
-N,E,S,W - player and his direction
+- 0 - empty space
+- 1 - is a wall
+- 2 - is a sprite
+- N,E,S,W - player and his direction
 
 
 For the file to be valid map around the player must be closed
