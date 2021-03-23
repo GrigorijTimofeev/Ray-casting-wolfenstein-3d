@@ -45,6 +45,8 @@ F and C - floor and ceiling colours
 NO (north) SO (south) WE (west) EA (east) S (sprite) - path to the textures
 
 
+
+
 Then there is a map in which
 
 0 - empty space
