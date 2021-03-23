@@ -8,11 +8,11 @@ That's how it looks:
 
 # Engine
 
-It place walls and sprites on map. Althow it place different texture on walls depending on player diraction. You can change cealing and floor colours in conf. file as a textures to walls and sprite. 
+It place walls and sprites on map. Also it place different texture on walls depending on player direction. You can change ceiling and floor colours in conf. file as a textures to walls and sprite.
 
 # Parser
  
- Map config example 
+Map config example 
 
 ```
 R 640 480
@@ -36,4 +36,36 @@ S ./textures/barrel.xpm
 10000000000000102222222100N001
 100000000000000022222221000001
  1111111111111111111111111111
+```
+
+R  - for resolution
+F and C - floor and ceiling colours
+NO (north) SO (south) WE (west) EA (east) S (sprite) - path to the textures
+
+Then there is a map in which
+0 - empty space
+1 - is a wall
+2 - is a sprite
+N,E,S,W - player and his direction
+
+For the file to be valid map around the player must be closed
+
+# launch
+
+On mac os you should type in terminal
+```
+make
+```
+which will compile the programm
+
+And
+```
+./cub3D map.cub
+```
+to luonch it
+
+You also can make a screenshot of the first frame without running the prigramm
+
+```
+./cub3D map.cub --save
 ```
