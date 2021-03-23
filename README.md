@@ -56,16 +56,21 @@ On mac os you should type in terminal
 ```
 make
 ```
-which will compile the programm
+which will compile the program
 
 And
 ```
 ./cub3D map.cub
 ```
-to luonch it
+to lunch it
 
-You also can make a screenshot of the first frame without running the prigramm
+You also can make a screenshot of the first frame without running the programs
 
 ```
 ./cub3D map.cub --save
 ```
+# Controls
+
+WASD - for move the player through the maze
+
+left and right arrows for turn left and right 
