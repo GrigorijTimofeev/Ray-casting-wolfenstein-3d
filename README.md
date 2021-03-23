@@ -78,3 +78,5 @@ It will be saved in bmp format
 WASD - for move the player through the maze
 
 left and right arrows for turn left and right 
+
+ESC - to close the program
