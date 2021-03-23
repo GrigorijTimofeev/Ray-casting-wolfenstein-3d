@@ -1,2 +1,2 @@
 # Ray-casting-wolfenstein-3d
-![](/img/img1.png | width = 200)
+![](/img/img1.png | width=100)
