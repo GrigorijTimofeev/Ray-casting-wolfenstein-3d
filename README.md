@@ -69,6 +69,8 @@ You also can make a screenshot of the first frame without running the programs
 ```
 ./cub3D map.cub --save
 ```
+
+It will be saved in bmp format
 # Controls
 
 WASD - for move the player through the maze
